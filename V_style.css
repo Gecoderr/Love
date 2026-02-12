@@ -1,0 +1,93 @@
+   @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+   
+   *{
+    font-family:'Poppins', sans-serif;
+    }
+
+   .body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+   }
+
+    .Ask_Box {
+        width: 600px;
+        background-color: white;
+        padding:50px;
+        border-radius: 25px;
+        
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    }
+
+    .Ask {
+        text-align: center;
+        color: red;
+    }
+
+    .BUTTONS {
+                   display: flex;
+    justify-content: center; 
+    align-items: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .BUTTONS button {
+        padding:15px 30px;
+        border-radius: 20px;
+        font-size: large;
+    }
+
+    .Yes_btn:hover {
+           transform: scale(1.1);
+    cursor: pointer;
+    background-color: limegreen;
+    }
+
+    .No_btn:hover {
+           transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 9, 9, 0.966);
+    }
+
+
+    .Yes_btn {
+        background-color: rgb(3, 155, 3);
+    }
+
+    .No_btn {
+        background-color: rgb(199, 6, 6);
+    }
+
+    body {
+        background-image: url('Assets/Valentine_BG1.webp');
+        background-size: cover;
+        background-position: center;
+         background-attachment: fixed;
+    }   
+
+  .Video_Box{
+
+     width: 540px;   
+    background: white;
+    border-radius: 15px;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+
+}
+
+    .vid{
+        cursor: pointer;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+        align-items: center;
+        padding: 25px;
+    }
