@@ -64,7 +64,7 @@
     }
 
     body {
-        background-image: url('Assets/Valentine_BG1.webp');
+        background-image: url('Valentine_BG1.webp');
         background-size: cover;
         background-position: center;
          background-attachment: fixed;
@@ -90,4 +90,5 @@
     align-items: center;
         align-items: center;
         padding: 25px;
+
     }
